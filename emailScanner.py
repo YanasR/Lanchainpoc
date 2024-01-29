@@ -14,7 +14,7 @@ import pandas as pd
 import os
 import warnings
 import openai
-os.environ["OPENAI_API_KEY"]='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'
+
 openai.api_key = os.environ["OPENAI_API_KEY"]
 # try:
 #     outlook = win32com.client.GetActiveObject('Outlook.Application')

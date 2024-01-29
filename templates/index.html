@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>AT&T Althea</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="../static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template-->
+  <link href="../static/css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="../static/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+
+  <!-- <link rel="stylesheet" type="text/css" href="../static/css/jquery.dataTables.min.css" /> -->
+
+  <link href="../static/vendor/datatables/responsive/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" type="text/css" href="../static/vendor/datatables/fixHeader/fixedHeader.bootstrap4.min.css" />
+
+  <link rel="stylesheet" type="text/css" href="../static/css/font-awesome.min.css" />
+
+  <link href="../static/css/select2/select2.min.css" rel="stylesheet">
+  <link href="../static/css/select2/select2-bootstrap4.min.css" rel="stylesheet">
+  <link href="../static/css/toaster/toastr.min.css" rel="stylesheet">
+  <link href="../static/css/admin/adminlte.min.css" rel="stylesheet">
+  <link href="../static/css/aisme.css" rel="stylesheet">
+  <script src="../static/js/aisme.js"></script>
+</head>
+
+</head>
+<body>
+
+       <div id="content">
+        <!-- Topbar -->
+        <nav class="navbar navbar-dark sticky-top  flex-wrap2 flex-md-nowrap p-0 masterHeader masterHeaderLanding">
+          <!--        <div class="container-fluid">-->
+          <a class="navbar-brand col-auto mr-0 masterHeaderLogo" href="#">
+        <!--    <img src="../static/img/AI_SME_logo.png">  -->
+            <h5 class="mb-0">AT&T Althea</h5>
+          </a>
+        </nav>
+        </div>
+    <div class="container",class="d-flex flex-column">
+        <h2>Active Assignment Data</h2>
+	      <style>
+	        /* Apply CSS styles to increase the size of the selection box */
+	        select {
+	            width: 200px; /* Set the width */
+	            height: 40px; /* Set the height */
+	            /* You can also add other CSS properties for styling, such as font-size, border, etc. */
+	        }
+	    </style>
+        <!-- Dropdown -->
+        <select id="dropdown">       
+        <option value="Alistair_Moonshroud">Alistair Moonshroud</option>
+        <option value="Atticus_Starling">Atticus Starling</option>
+        <option value="Aurora_Nocturne">Aurora Nocturne</option>
+        <option value="Caleb_Whitaker">Caleb Whitaker</option>
+        <option value="Evangeline_Shadowhart">Evangeline Shadowhart</option>
+        <option value="System">System</option>                      
+                        
+                        
+        </select>
+        <button class="btn btn-primary" type="button" onclick="ticketPredictionResultTab()">Show Assignment</button>
+    </div>
+   
+    <div class="card-body">
+         <div class="table-responsive" id="ticket-prediction-tab">
+    </div>
+    </div>
+</body>
+</html>

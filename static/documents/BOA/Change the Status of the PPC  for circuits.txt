@@ -1,0 +1,22 @@
+Issue:Please Change the Status of the PPC  for circuits indicated below and send to BBW
+Remove ADD
+Change DEL to ACTIVE
+Ticket:000000272884624
+
+Solution:
+
+1) Change DEL to ACTIVE:
+
+Select * from table_installed_options  WHERE siid ='DSL1417735-2-1-0' and installed_option_seq='1' ;
+
+UPDATE table_installed_options 
+   SET    status = 'ACTIVE' 
+   WHERE siid ='DSL1417735-2-1-0' and installed_option_seq='1'  ;
+
+2) Remove ADD:
+   
+Select * from table_installed_options  WHERE siid ='DSL1417735-2-1-0' and installed_option_seq='3' ;
+
+DELETE FROM table_installed_options where siid='DSL1417735-2-1-0' and installed_option_seq='3'
+
+commit;

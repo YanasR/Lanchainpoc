@@ -1,0 +1,7 @@
+update u_servicerequest set state='I' where SERVICEREQUESTID in (xxxx);
+
+update u_order set state='I' where useractivityid in (select useractivityid from u_useractivity where servicerequestid in(xxxx)) and (state!='I' and state!='K');
+
+update u_useractivity set modifyindicator='I' where useractivityid in (select u.useractivityid from u_useractivity u,u_servicerequest s,u_order o 
+where s.servicerequestid in(xxxx) and o.useractivityid=u.useractivityid and 
+ u.servicerequestid=s.servicerequestid) and (modifyindicator!='I' and modifyindicator!='K');

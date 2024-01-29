@@ -1,0 +1,90 @@
+.login-page .login-box {
+  background: url(./../img/blue-gradient.jpg);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.login-page .login-box .alert {
+  margin: 20px !important;
+}
+
+.login-page .login-logo h3 {
+  color: #fff;
+}
+
+.login-page .login-logo a {
+  color: #fff !important;
+  font-size: 3.5rem !important;
+}
+
+.login-page {
+  background-color: #0a3c71 !important;
+}
+
+.login-page .card {
+  box-shadow: none !important;
+  background-color: transparent !important;
+  border: none !important;
+  margin-bottom: 0px !important;
+}
+
+.login-page .card .login-card-body {
+  background-color: transparent !important;
+}
+
+.login-page .card .login-card-body button {
+  background-color: #ff8c00 !important;
+  color: white !important;
+}
+
+.login-page .card .login-card-body .input-group-text {
+  border: 0px !important;
+  border-radius: 0px !important;
+  background-color: #fff !important;
+}
+
+.login-page .card .login-card-body input {
+  border: 0px !important;
+  border-radius: 0px !important;
+  padding-left: 1rem;
+}
+
+.login-logo, .register-logo {
+  margin-bottom: 0px !important;
+}
+
+.login-box .card .card-body {
+  padding-top: 5px !important;
+}
+
+.displayNone {
+  display: none;
+}
+
+.displayBlock {
+  display: block;
+}
+
+.accent-info a {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
+.accent-info a:hover {
+  color: #f8f9fa !important;
+  text-decoration: underline;
+}
+
+.needHelp {
+  float: right;
+}
+
+.login-box {
+  padding: 10px !important;
+}
+
+#loginForm .form-group label {
+  color: #fff !important;
+  font-weight: 500 !important;
+  margin-bottom: 0px !important;
+  font-size: 13px !important;
+}

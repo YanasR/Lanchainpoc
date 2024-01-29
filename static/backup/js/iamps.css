@@ -1,0 +1,67 @@
+.iamps-container{
+	margin: 20%;
+}
+.margin-top{
+	margin-top: 8vh;
+}
+.search-bar{
+	width: 100%;
+    padding: 20vh 20vh 15vh 20vh;
+}
+.a-center{
+margin-left: 45%;
+margin-top: 15px;
+}
+.iamps-tab-font{
+	font-size: 2vh;
+}
+
+.tab-container{
+	margin-top: 4vh;
+	height: 40vh;
+}
+.tab-content-container{
+	height: 10vh;
+}
+.search-border{
+
+	border: 0.5px  solid #ccc;
+}
+.application-search{
+padding: 0 17vh 0 17vh;
+}
+.form-control{
+	height: 25px !important;
+	padding: 0 5px !important;
+}
+.form-group{
+	margin-bottom: 7px !important;
+}
+label{
+	font-weight: 520 !important;
+	padding-top: 10px !important;
+	width: 100%;
+	font-size: 12px;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+}
+.form-default{
+	height: 34px !important;
+}
+
+.component-border{
+	border-top: 1px solid #ccc;
+	margin-top: 10px;
+}
+.panel {
+    border: 0px !important;
+	box-shadow: none;
+}
+.panel-body {
+    border: 0px !important;
+	box-shadow: none;
+}
+
+

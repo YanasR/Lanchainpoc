@@ -1,0 +1,74 @@
+
+
+findit2 ESignInterfaceService/SignedbyCustomer <oppty id/contract#> 90  (eSign --> ROME)
+
+findit2 ESignInterfaceService/CounterSign <oppty id/contract#> 90 (eSign --> ROME)
+
+--getContractPackage
+findit2 ContractQueryService/ContractPackage <Contract#> 90  (ROME --> EDF)
+
+--getCustInfo
+findit2 CustomerInfoReadService <Original contract#> 90 (ROME --> EDF)
+
+--setBAP
+findit2 ManageEnterpriseSalesBillAccountDetails/SetBillAccountpackage <Contract solution#/Contract#> 90 (ROME --> EDF)
+
+--ATP notification
+findit2 UpdateeCRMOpportunityService <Contract solution#> 90 (EFMS --> ROME)
+
+--getBAH
+findit2 BillAccountQuery/getBillAccountHierarchy <Contract solution#/Contract#> 90  (ROME --> EDF)
+
+--getBAP
+findit2 BillAccountQuery/getBillAccountPackage <Contract solution#/Contract#> 90 (ROME --> EDF)
+
+--Address validation
+findit2 CustAddrValidationService <Address line1> 90  (ROME --> EDF)
+
+--MCN validation
+findit2 CheckMCNValidationService <MCN> 90 (ROME --> EDF)
+
+--setOppty
+findit2 OpportunityInsertUpdateService/OpportunityPackageWrite <Oppty#> 90 (ROME --> EDF)
+
+--Solution status
+findit2 EventListenerService/solutionStatus <Solution#> 90 (ADOPT --> ROME)
+
+findit2 EventListenerService/SSDFSolutionStatus <Solution#> 90 (SSDF --> ROME)
+
+--Project release notification 
+findit2 ProjectRelNotif <Solution#> 90 (ADOPT/SSDF --> ROME)
+
+--getBAL(Service triplet info on SOR)
+findit2 BillAccountQuery/getBillAccountList <Contract#> 90  (ROME --> EDF)
+
+--Access triplet info on SOR
+findit2 SetAccessTripletInfo  <SOR Id> 90  (EDF --> ROME)
+
+--getSPP
+findit2 DBORSolutionQueryService/SolutionProjectPackageRead <Project#> 90 (ROME --> EDF)
+
+--setSPP
+findit2 SolutionInsertUpdateService/setSolutionProjectPackage <Oppty#> 90 (ROME --> EDF) -PMO flow
+
+--setPP
+findit2 ManagesalesOrderDetails/ProjectPackageWrite <Project#> 90 (ROME --> EDF) -FMO flow
+
+--SOR submission to EFMS
+findit2 EFMSMISService/ImplementProject <SOR Id> 90 (ROME --> EFMS
+
+--SOR submission to OMX
+findit2 OMX/NotifyNxEnterpriseService <SOR Id> 90 (ROME --> OMX)
+
+--C project creation
+findit2 SetSORStatusService <SOR Id> 90 (EFMS --> ROME)
+
+--setCA
+findit2 SetContractAttachmentService/SetContractAttachment <Oppty id> 90 (SSDF --> ROME)
+
+--Contract status cbus event
+findit2 EventListenerService/SSDFContractGroup <Oppty id/Contract#> 90 (SSDF --> ROME)
+
+
+
+
